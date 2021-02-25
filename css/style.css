@@ -1,0 +1,63 @@
+:root {
+    font-size: 16px;
+    --white30: white;
+    --white20: #A5A3A5;
+    --white10: #3A3539;
+}
+
+body {
+    color: var(--white30);
+    font-family: 'Nunito', sans-serif;
+    background: #251F24;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-block-start: 20px;
+    margin-block-end: 16px;
+}
+
+main, footer {
+    max-inline-size: 902px;
+    margin: auto;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    
+}
+
+form input {
+    inline-size: 100%;
+    border: 1px solid var(--white30);
+    background: #251F24;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+    color: var(--white30);
+    font-size: 16px;
+    display: block;
+    margin-block-end: 24px;
+}
+
+form input[type="submit"] {
+    background: #157EFB;
+    border: none;
+}
+
+form input::-webkit-input-placeholder {
+    color: var(--white20);
+}
+
+.video {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
